@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Navrhněte si strukturu pro knihovnu-->
+<books_store>
+    <books>
+        <genre>
+            <action></action>
+            <comedy></comedy>
+            <drama></drama>
+            <horror></horror>
+            <mystery></mystery>
+            <romance></romance>
+            <thriller></thriller>
+            <crime_thriller></crime_thriller>
+            <disaster_thriller></disaster_thriller>
+            <psycho_thriller></psycho_thriller>
+            <techno_thriller></techno_thriller>
+            <western></western>
+            <self-educatiobe>
+                <book>
+                    <genre>self-educative</genre>
+                    <name>12 Rules For life</name>
+                    <author>Jordan B. Peterson</author>
+                    <count_of_pages>448</count_of_pages>
+                    <realese>January 23, 2018</realese>
+                    <iban>340017</iban>
+                </book>
+                <book>
+                    <genre>self-educative</genre>
+                    <name>Circadian Clock</name>
+                    <author>Satchin Panda</author>
+                    <count_of_pages>296</count_of_pages>
+                    <realese>June 12, 2018</realese>
+                    <iban>058558 </iban>
+                </book>
+            </self-educatiobe>
+            <kids></kids>
+            <mix></mix>
+        </genre>
+    </books>
+</books_store>
