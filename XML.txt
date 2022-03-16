@@ -1,0 +1,62 @@
+-XML = extendible markup language (značkovací jazyk podobně jako HTML)
+-narozdíl od HTML tady jednotlivé značky nemají předdefinovaný význam
+-dopředu tu nejsou dány skoro žádny tagy/značky a můžeme volit libovolné značky pro strukturování obsahu
+-XML jazyk má rozumně strukturovat data, tak aby byli přehledné pro každého a rozumně se dali zpracovávat softvarově
+-popsat data tak aby se dala rozumně přenášet
+-dokumnenty se snaží být selfdescriptive --> když se na XML podíváme aniž by nám někdo něco řekl, tak bychom měli být schopni něco vyčíst i pro člověka, který předem neví o co se jedná, nebo není z oboru
+-textové soubory s příponou .xml
+-pomocí vyšších programovacích jazyku např. Python, C#, Java, atd jsme pohodlně schopni číst XML soubor (https://www.google.com/search?q=python+reading+xml+file&oq=python+reading+xml&aqs=chrome.1.69i57j0i512j0i22i30l8.4553j1j7&sourceid=chrome&ie=UTF-8)
+-je tu ještě jazyk UML, který je jiný než XML (https://www.google.com/search?q=xml+vs+uml&oq=xml+vs+uml&aqs=chrome..69i57.2350j1j7&sourceid=chrome&ie=UTF-8)
+STRUKTURA
+-prolog
+<?xml version="1.0" encoding="UTF-8"?>
+|v
+|l
+|a
+|s
+|t
+|n
+|í
+|
+|o
+|b
+|s
+|a
+|h
+<tag>obsah</tag>
+-součástí tagu může být další tag atd --> tvoří stromovou strukturu
+
+<root>
+	<child_1>
+		<!-- komentář -->
+		<subchild_1>...</subchild_1>
+		<subchild_2>...</subchild_2>
+	</child1_>
+</root>
+
+-je to textový soubor takže se tam může vyskytovat jakýkoliv text ale samozřejmě (< > '' & ""), ale můžeme je napsat takto &lt &gt &apos &quot &amp
+-tag bez dat můžeme napsat dvěma způsoby <tag></tag> = <tag /> 
+-tagy můžou mít atributy a mělibychom je využívat na metadata (pomocné informace)
+-XML je case-sensitive
+-tyhle ty značky nepoužívat (- .)
+-tohle je povoleno (a-z, A-Z, 0-9)
+-tag by měl začínat písmenem, nebo podtržítkem když by měl začínat číslicí
+-neměl by začínat XML, xml, Xml, xML, ...
+-názvy značek by měli být co nejkratší a co nejpopisnější
+-můžeme používat kodování, která si poradí s českými znaky, ale na urovni značek bychom měli používat anglickou abecedu
+
+ŠPATNĚ --> <person name="Michal" obor="INF" />
+
+DOBŘE -->	<person> 
+			<name> 
+			Michal
+			</name>
+			<born>
+				<day>
+				28
+				</day>
+				<month>
+				7
+				</month>
+			</born>
+		</person>
