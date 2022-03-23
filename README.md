@@ -1,4 +1,6 @@
 # Information-Systems
+--
+
 Notes from lectures
 
 Small projects
@@ -10,20 +12,20 @@ Small projects
 > spacing structure as defining XML or JSON document >> 
 
 
->>
-bookshop
-  book
-    author
-      name
-      year
-    pages
-    isbn
-    cover
-    date
-    cathegories
-  customer
-    name
-    surname
-    year
-    
-this structure will be transform to the XML or JSON file
+    >>
+    bookshop
+      book
+        author
+          name
+          year
+        pages
+        isbn
+        cover
+        date
+        cathegories
+      customer
+        name
+        surname
+        year
+
+    this structure will be transform to the XML or JSON file
