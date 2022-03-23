@@ -1,9 +1,9 @@
-**Information-Systems**
---
+# Information-Systems
 
 *Notes from lectures*
 
-# Small projects
+**Small projects**
+--
 
 > convertr of XML document to JSON file
 > 
