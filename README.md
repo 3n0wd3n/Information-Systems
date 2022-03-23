@@ -3,7 +3,7 @@
 
 *Notes from lectures*
 
-#Small projects
+# Small projects
 
 > convertr of XML document to JSON file
 > 
@@ -28,4 +28,4 @@
         surname
         year
 
-    *this structure will be transform to the XML or JSON file*
+*this structure will be transform to the XML or JSON file*
