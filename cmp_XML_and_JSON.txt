@@ -1,0 +1,41 @@
+#XML
+
+<store>
+  <address>
+    <city>
+    </city>
+    <street>
+    </street>
+  </address>
+  <book>
+    <name>
+    </name>
+    <author id="">
+    </author>
+    <ISBN>
+    </ISBN>
+    <cathegory>
+    </cathegory>
+  </book>
+</store>
+
+#JSON
+
+{
+"address": {
+  "city": "",
+  "street": ""
+  }
+"books": [
+  {
+  "name": "",
+  "author": {
+    "more_authors": true,
+    "names": [],
+    "id": "",
+  }
+  "isbn": "",
+  "cathegories": [],
+  }
+]
+}
