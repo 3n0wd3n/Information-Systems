@@ -1,0 +1,26 @@
+{
+  "ID": "0007285707",
+  "name": "Mike",
+  "lastname": "Gamekeeper",
+  "adres": {
+    "street": "Heyrovského", 
+    "street_number": "405/25", 
+    "city": "Olomouc", 
+    "postal_code": "77900"
+    
+  },
+  "email": "michaelhajny@outlook.com",
+  "orders": {
+    "id": "5437", 
+    "date": "28.7.2022", 
+    "state": "shipping", 
+    "goods": [
+      "headphones", 
+      "microphone"
+      ]
+  }, 
+  "id": {
+    "number": "3612", 
+    "date": "29.7.2022", 
+    "state": "shipping"}
+}
