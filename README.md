@@ -1,9 +1,9 @@
-# Information-Systems
+**Information-Systems**
 --
 
-Notes from lectures
+*Notes from lectures*
 
-Small projects
+#Small projects
 
 > convertr of XML document to JSON file
 > 
@@ -28,4 +28,4 @@ Small projects
         surname
         year
 
-    this structure will be transform to the XML or JSON file
+    *this structure will be transform to the XML or JSON file*
